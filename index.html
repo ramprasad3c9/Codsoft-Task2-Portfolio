@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ram Prasad || Portfolio</title>
+    <link rel="stylesheet" href="./portfolio-styles.css" />
+    <script
+      src="https://kit.fontawesome.com/0c9c6b1857.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header section start -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./portfolio-assets/portfolio-logo.png" alt="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>Ram</span><br />Prasad From Rajahmundry</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Header section end -->
+
+    <!-- About section start -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./portfolio-assets/portfolio-image-1.jpg" alt="image 1" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm Ram Prasad Chinthakrinda. I was born in Rajahmundry, Which is
+              also known as Cultural Capital of Andhra pradesh. I completed my
+              B.Tech in stream of Mechanical Engineering. I was trained in Web
+              Development, Ansys, Autocad, basics of python and Non-Destructive
+              testing techniques. I completed NDT level-2 certification
+              certified by ASNT. In diploma I have worked as intern for six
+              months of industrial traing at Maruti Suzuki Nexa. I have done a
+              mini poroject on foot step power generation where we can generate
+              power based on Arduino circuit and study ans analysis of camphor
+              with gasoline ethanol blends. I have done a major project on
+              performance and emission control test of camphor with ethanol
+              gasoline blends.
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('internship')">Intership</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Designing Website
+                  Development
+                </li>
+                <li>
+                  <span>Portfolio</span><br />Designing Personal Portfolio
+                  Websites
+                </li>
+                <li>
+                  <span>NDT techniques</span><br />Testing Non-Destructive
+                  Testing Techniques
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="internship">
+              <ul>
+                <li>
+                  <span>NEXA</span><br />Six months of industrial training on
+                  automobile
+                </li>
+                <li>
+                  <span>ANSYS</span><br />one month of intership on ansys
+                  software
+                </li>
+                <li>
+                  <span>CODSOFT</span><br />one month of intership on web
+                  development
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020-2023</span><br />B.Tech(Mechanical Engineering) at
+                  Aditya college of engineering and technology
+                </li>
+                <li>
+                  <span>2017-2020</span><br />Diploma(Mechanical Engineering) at
+                  Aditya polytechnic College
+                </li>
+                <li>
+                  <span>2016-2017</span><br />SSC at S.V.S. grammer high school
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About section end -->
+
+    <!-- Services section start -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Our range of services suit everyone, from small and medium
+              business to bigg corporates.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-file-code"></i>
+            <h2>Portfolio Design</h2>
+            <p>
+              Designing personal portfolio our range of services suit everyone.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-microscope"></i>
+            <h2>NDT Testing</h2>
+            <p>
+              Testing the matetrial having any damage without destructive using
+              non-destructive testing methods, from small and medium industries
+              to big industries.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services section end -->
+
+    <!-- Portfolio section start -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./portfolio-assets/portfolio-work-1.webp" alt="image-1" />
+            <div class="layer">
+              <h3>Personal portfolio</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Labore, fugit.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./portfolio-assets/portfolio-work-2.jpg" alt="image-2" />
+            <div class="layer">
+              <h3>Web Design</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Labore, fugit.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./portfolio-assets/portfolio-work-3.webp" alt="image-3" />
+            <div class="layer">
+              <h3>NDT Testing</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Labore, fugit.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio section end -->
+
+    <!-- contact section start -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> rp306372@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> 9553013110</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a
+              href="./portfolio-assets/Ramprasad Chinthakrinda Resume.pdf"
+              class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="class-right">
+            <form>
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Yout Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Sumbit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        Copyright 2023-2024, Made By Ram Prasad Chinthakrinda
+      </div>
+    </div>
+    <!-- contact section end -->
+
+    <script src="./portfolio-javasript.js"></script>
+  </body>
+</html>
